@@ -1,0 +1,21 @@
+#metadataBlock	name	dataverseAlias	displayName												
+	cruise		Cruise Metadata												
+#datasetField	name	title	description	watermark	fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id
+	vessel	Vessel / Ship Name		Enter Vessel / Ship Name	text	0		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		cruise
+	cnumber	Cruise Number		Enter Cruise Number	text	1		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		cruise
+	s_date	Start Date		yyyy-mm-dd	date	2		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		cruise
+	e_date	End Date		yyyy-mm-dd	date	3		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		cruise
+	s_port	Start Port		Enter Start Port	text	4		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		cruise
+	e_port	End Port		Enter End Port	text	5		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		cruise
+	participat	Participant		Enter Participant	text	6		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		cruise
+	p_title	Project Title		Enter Project Title	text	7		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		cruise
+	p_investigator	Principal Investigator		Enter Name of Principl Investigator	text	8		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		cruise
+	agency	Agency		Enter Agency	text	9		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		cruise
+	a_department	Agency Department		Enter Agency Department	text	10		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		cruise
+	p_number	Project Number		Enter Project Number	text	11		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		cruise
+	r_link	Related Link		Enter Related Link URL	url	12		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		cruise
+	s_cruise_id	Scheduler Cruise ID		Enter Schedule Cruise ID	text	13		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		cruise
+	scheduler	Scheduler		Enter Scheduler	text	14		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		cruise
+	r_link_scheduler	Scheduler Related Link		Enter Scheduler related URL	url	15		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		cruise
+	date_received	Date Received		yyyy-mm-dd	date	16		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		cruise
+	data_link	Data Link		Enter Data URL	url	17		TRUE	FALSE	TRUE	TRUE	TRUE	FALSE		cruise
