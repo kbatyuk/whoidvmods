@@ -1,2 +1,2 @@
 # whoidvmods
-Modified dataverse files used by WHOI dataverse
+Modified and custom dataverse files used by WHOI dataverse
